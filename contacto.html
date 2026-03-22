@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="">
+        <label for="nombre">Nombre</label>
+        <input type="text"  readonly value="defecto">
+
+        <label>Email</label>
+        <input type="email" placeholder="Ingresa tu correo">
+
+        <label>Contraseña</label>
+        <input type="password" required>
+
+        <label for="">Celular</label>
+        <input type="number" pattern="[0-7]{5}" required>
+
+        <label for="">Edad</label>
+        <input type="number" min="18" max="120" required>
+
+        <label for="">Fecha nacimiento0</label>
+        <input type="date">
+
+        <label for="">Hora</label>
+        <input type="time">
+
+        <input type="color">
+
+        <label for="">Nivel satisfaccion</label>
+        <input type="range" min="0" max="3">
+
+        <input type="url" placeholder="">
+
+        <label for="">Busqueda</label>
+        <input type="search">
+
+        <input type="file">
+
+        <input type="radio">
+        <input type="checkbox">
+
+        <select name="" id="">
+            <option value="">Seleccione</option>
+            <option value="">Peru</option>
+            <option value="">Colombia</option>
+            <option value="">Bolivia</option>
+        </select>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
